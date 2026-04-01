@@ -56,13 +56,13 @@ export default function App() {
               <div className="mb-4 flex items-center gap-3">
                 <span className="text-gold text-xs font-bold">[ 01 ]</span>
                 <div className="h-[1px] w-12 bg-gold/30" />
-                <span className="text-[10px] uppercase tracking-[0.3em] text-white/40">Identitas Utama</span>
+                <span className="text-[10px] uppercase tracking-[0.3em] text-white/40">Identitas</span>
               </div>
               <h1 className="text-6xl md:text-8xl font-serif font-bold leading-[0.9] mb-8 gold-glow">
                 Chap0<span className="text-gold">.</span>
               </h1>
               <div className="text-xl md:text-2xl text-white/70 leading-relaxed max-w-2xl border-l-2 border-gold/20 pl-8 italic">
-                Arsitek FiveM yang fokus di logika server performa tinggi dan pengembangan ekosistem custom sejak 2021.
+                Developer FiveM fokus di logika server, performa tinggi, dan pengembangan ekosistem custom sejak 2021.
               </div>
             </div>
             <div className="lg:col-span-4 flex flex-col justify-end">
@@ -78,7 +78,7 @@ export default function App() {
         {/* Grid Spek Teknis */}
         <section className="mb-32">
           <div className="flex items-center gap-4 mb-12">
-            <h2 className="text-2xl font-serif font-bold italic">Spek_Teknis</h2>
+            <h2 className="text-2xl font-serif font-bold italic">Teknis</h2>
             <div className="flex-1 h-[1px] bg-white/10" />
           </div>
           
@@ -162,7 +162,7 @@ function optimasiResource(resource) {
         <section id="project" className="mb-32">
           <div className="mb-12">
             <span className="text-gold text-xs font-bold">[ 03 ]</span>
-            <h2 className="text-4xl font-serif font-bold mt-2 italic">Riwayat_Project</h2>
+            <h2 className="text-4xl font-serif font-bold mt-2 italic">Project</h2>
           </div>
           
           <div className="border border-white/10">
@@ -175,7 +175,7 @@ function optimasiResource(resource) {
             <BarisPengalaman id="01" nama="Central Extinction" posisi="Lead Developer" status="Selesai" />
             <BarisPengalaman id="02" nama="Central FFA" posisi="Second Developer" status="Selesai" />
             <BarisPengalaman id="03" nama="Domestik Roleplay" posisi="Second Developer" status="Selesai" />
-            <BarisPengalaman id="04" nama="Garuda Roleplay" posisi="Technical Handler" status="Legacy" />
+            <BarisPengalaman id="04" nama="Garuda Roleplay" posisi="Technical Handler" status="Selesai" />
           </div>
         </section>
 
