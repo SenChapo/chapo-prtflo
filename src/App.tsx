@@ -36,7 +36,7 @@ export default function App() {
             <span className="text-green-500">Available for Hire</span>
           </div>
           <span className="text-white/30 hidden md:inline">ID: CHAP0-DEV-2021</span>
-          <span className="text-white/30 hidden md:inline">Lok: ID_JKT</span>
+          <span className="text-white/30 hidden md:inline">Lok: Bandung</span>
         </div>
         <div className="flex items-center gap-6">
           <span className="text-white/30">{waktu}</span>
@@ -220,8 +220,7 @@ function optimasiResource(resource) {
 
       <footer className="p-8 border-t border-white/10 flex justify-between items-center text-[10px] text-white/20 uppercase tracking-[0.3em]">
         <span>&copy; 2026 CHAP0</span>
-        <span className="hidden md:inline">Dibangun_pake_Lua_dan_Kopi</span>
-        <span>v.1.0.4-stabil</span>
+        <span className="hidden md:inline">Salam hangat.</span>
       </footer>
     </div>
   );
